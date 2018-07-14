@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>Super Game Gifts!</title>
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+             
+    <!-- css ref -->      
+    <link rel="stylesheet" href="assets/css/styleS.css">
+    
+    <!-- JQuery -->
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+   
+
+   
+    
+</head>
+
+<body>
+    
+   
+        
+        <br>
+        
+        <!-- navbar -->
+        <nav>
+            <div class="nav-wrapper grey" id="navbar">
+              <div class="brand-logo center">Super Game Gifts!</div>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="http://www.google.com">Support</a></li>
+                
+              </ul>
+            </div>
+          </nav><br><br><br><br><br>
+        
+        <div class="form-vg">
+            <form>
+                <div class="form-group ">
+                    <label for="vg-name-input">The Name of the Game is...</label>
+                    <input class="form-control" id="vg-name-input" type="text">
+                </div>
+
+                <div class="center-align">
+                <button class="btn btn-success grey" id="search-vg" type="button">Search!</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="container">
+        <div class="text-center">
+          
+            <table id="vg" class="table">
+                <th class="table-vg">Cover</th>
+                
+                
+                <th class="td">Title</th>
+
+                
+                <th class="td">Rating</th>
+
+                
+                <th class="td"></th>
+                <div id="table-vg"></div>
+            </table>
+            </div>
+            
+        </div>
+    <!-- </div> -->
+    
+    
+    <script src="assets/javascript/callapi.js"></script>
+    <script src="assets/javascript/buildquery.js"></script>
+    <script src="assets/javascript/showresults.js"></script>
+    <script src="assets/javascript/vg.js"></script>
+</body>
+
+</html>

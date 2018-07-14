@@ -1,1 +1,2 @@
-# Project1
+# supergamequery
+Super game query using igdb
